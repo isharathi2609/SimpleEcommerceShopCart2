@@ -1,4 +1,4 @@
-FROM tomcat:9.0-jdk1.8-openjdk
+FROM tomcat:9.0-jdk8-openjdk
 
 # Purani files saaf karein
 RUN rm -rf /usr/local/tomcat/webapps/*
